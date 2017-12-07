@@ -9,7 +9,7 @@ Checkout out some of the cool places around my neighborhood. Ranging from histor
     - Double click on the **index.html** file to view the main page of the site on your device.
 
     or
-- ##### [Click the link here to view the live site online.]()
+- ##### [Click the link here to view the live site online.](https://cesarlagcc.github.io/udacity-neighborhood/)
 
 
 ### Resources - 
