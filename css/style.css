@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body,html{
+	width: 100%;
+	height: 100%;
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+.my-map {
+	width:75%;
+	height: 100%;
+	margin: 0;
+	padding:0;
+	float: right;
+}
+
+
+input {
+	position:relative;
+	width: 100%;
+	margin:0;
+}
+#autocomplete{
+	font-family: sans-serif;
+	background-color: #ebebeb;
+	padding:10px;
+	top:0;
+	margin:0;
+	font-size:20px;
+}	
+
+.list-view {
+		color: #333;
+	 	width:25%;
+	 	float: left;
+}
+
+.list-view p {
+		font-size: 1.0em;
+		font-weight: bold;
+		font-family: 'Roboto', sans-serif;
+		margin: 0;
+		padding:20px;
+		border-bottom:1px solid black;
+}
+
+.list-view p:hover {
+		background-color:#ebebeb;
+		cursor: pointer;
+}

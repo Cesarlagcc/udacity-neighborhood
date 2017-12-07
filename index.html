@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset= "utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<link rel="stylesheet" href="css/style.css">
+	<title>My NYC neighborhood</title>
+</head>
+<body>
+	<div class="container">
+			<div class="col-md-12">
+			<input  type="search" id="autocomplete" placeholder="Search Location" data-bind="textInput: query, valueUpdate: 'keyup'" />
+		<div class="col-md-4">
+<!--list view-->
+			<div class="list-view" data-bind="foreach: search">
+					<p class="list-item" data-bind="text: $data.name, click: $parent.listViewClick"></p>
+			</div>
+	</div>
+	</div>
+</div>
+	<div id="map" class="my-map"></div>
+<!-- Search Bar -->
+	
+	<script>
+			function initApp() {
+			"use strict";
+				initMap();
+				var app = new ViewModel();
+				ko.applyBindings(app);
+			}
+	</script>
+	<script type="text/javascript" src="js/knockout-3.4.2.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	<script>
+		function googleError() {
+			alert('Google Maps could not be loaded.')
+		}
+	</script>
+	<script src="https://code.jquery.com/jquery.min.js"></script>
+	<script async defer type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhSX7S51IQqdd3x5o-ajmXsfkac01_Qak&libraries=places&callback=initApp" onerror="googleError()"></script>
+</body>
+</html>
