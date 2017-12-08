@@ -1,10 +1,10 @@
 var Locations = [{
-        name: "Sternberg Park",
+        name: "Richies Gym",
         position: {
-            lat: 40.7054394,
-            lng: -73.94798029999998
+            lat: 40.6986984,
+            lng: -73.93364050000002
         },
-        id: "4b96b24ff964a52094de34e3"
+        id: "4bde27cf0ee3a593c03630b0"
     },
     {
         name: "Fat Albert Department Store",
