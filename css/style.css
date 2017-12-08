@@ -49,3 +49,22 @@ input {
 		background-color:#ebebeb;
 		cursor: pointer;
 }
+
+@media (max-width: 600px){
+
+	.list-view {
+		width:100%;
+		float: none;
+		}
+
+	.my-map{
+		width:100%;
+	}
+
+}
+
+
+
+
+
+
